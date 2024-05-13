@@ -124,6 +124,6 @@ class Money
             
         string comparisonResult = Compare(money1, money2);
         Console.WriteLine($"Сравнение: {comparisonResult}");
-        Console.ReadKey();
+        Console.ReadKey(); //Код для отмены сворачивания окна при конце кода
     }
 }
