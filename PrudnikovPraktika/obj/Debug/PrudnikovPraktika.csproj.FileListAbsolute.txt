@@ -1,0 +1,7 @@
+D:\PrudnikovPraktika\PrudnikovPraktika\bin\Debug\PrudnikovPraktika.exe.config
+D:\PrudnikovPraktika\PrudnikovPraktika\bin\Debug\PrudnikovPraktika.exe
+D:\PrudnikovPraktika\PrudnikovPraktika\bin\Debug\PrudnikovPraktika.pdb
+D:\PrudnikovPraktika\PrudnikovPraktika\obj\Debug\PrudnikovPraktika.csproj.AssemblyReference.cache
+D:\PrudnikovPraktika\PrudnikovPraktika\obj\Debug\PrudnikovPraktika.csproj.CoreCompileInputs.cache
+D:\PrudnikovPraktika\PrudnikovPraktika\obj\Debug\PrudnikovPraktika.exe
+D:\PrudnikovPraktika\PrudnikovPraktika\obj\Debug\PrudnikovPraktika.pdb
