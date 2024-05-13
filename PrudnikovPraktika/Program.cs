@@ -97,6 +97,7 @@ class Money
         }
 
         Console.Write("Введите сумму копеек: ");
+<<<<<<< HEAD
         string kopeckstest = Console.ReadLine();
         if (int.TryParse(kopeckstest, out int value1))
         {
@@ -121,13 +122,18 @@ class Money
             Environment.Exit(0);
         }
         return new Money(rubles, kopecks);
+=======
+        byte kopecks = byte.Parse(Console.ReadLine()); //При вводе числа больше чем 99 производятся неверные расчёты
+
+        return new Money(rubles, kopecks); //При вводе числа состоящего из более чем 4 знаков программа вылетает с ошибкой
+>>>>>>> 2059b03b2d7e5b9c73ec15f17e6f6d1c46b4bf4e
     }
 
     // Пример использования:
     static void Main()
     {
         Console.WriteLine("Введите первую сумму:");
-        Money money1 = ReadMoneyFromConsole();
+        Money money1 = ReadMoneyFromConsole(); //При неверном вводе выводится ошибка (при вводе не числовых значений)
 
         Console.WriteLine("Введите вторую сумму:");
         Money money2 = ReadMoneyFromConsole();
