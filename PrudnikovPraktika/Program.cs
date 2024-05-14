@@ -83,16 +83,16 @@ class Money
         long rubles = long.Parse(Console.ReadLine());
 
         Console.Write("Введите сумму копеек: ");
-        byte kopecks = byte.Parse(Console.ReadLine());
+        byte kopecks = byte.Parse(Console.ReadLine()); //При вводе числа больше чем 99 производятся неверные расчёты
 
-        return new Money(rubles, kopecks);
+        return new Money(rubles, kopecks); //При вводе числа состоящего из более чем 4 знаков программа вылетает с ошибкой
     }
 
     // Пример использования:
     static void Main()
     {
         Console.WriteLine("Введите первую сумму:");
-        Money money1 = ReadMoneyFromConsole();
+        Money money1 = ReadMoneyFromConsole(); //При неверном вводе выводится ошибка (при вводе не числовых значений)
 
         Console.WriteLine("Введите вторую сумму:");
         Money money2 = ReadMoneyFromConsole();
